@@ -1,4 +1,4 @@
-# Оптимизация картинок на десктопе
+# Optimize images at the desktop
 
 #### Clone project
 `git clone git@github.com:DenisShapkun/optimize-images.git`
