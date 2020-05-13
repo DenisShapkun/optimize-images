@@ -14,11 +14,7 @@
 
 Put images to `app/images`
 
-#### For clearing cache run
-
-`gulp clear`
-
-#### For resize images set sizes you need at **gulpfile.js** and Put images to `app/images/original` and after run
+#### For resize images (if you need) set sizes you need at `gulpfile.js` and Put images to `app/images/original` and after run
 
 `gulp resize`
 
@@ -33,3 +29,7 @@ or
 `gulp default`
 
 After you get optimized images at the `dist/images`
+
+#### For clearing cache run
+
+`gulp clear`
