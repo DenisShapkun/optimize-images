@@ -12,10 +12,10 @@ var gulp         = require('gulp'),
 gulp.task('resize', function () {
   gulp.src('app/images/original/**/*')
     .pipe(imageResize({
-      width : 100,
-      height : 100,
-      crop : true,
-      upscale : false
+      width: 1000,
+      height: 1000,
+      crop: true,
+      upscale: false
     }))
     .pipe(gulp.dest('app/images/resized'));
 });
