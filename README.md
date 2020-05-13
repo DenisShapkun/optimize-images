@@ -1,4 +1,4 @@
-# Optimize images at the desktop
+# Desktop Image Optimization
 
 #### Clone project
 `git clone git@github.com:DenisShapkun/optimize-images.git`
@@ -6,21 +6,18 @@
 #### Enter project
 `cd optimize-images`
 
-#### Initialize project
-`npm init`
-
 #### Install packages
 `npm install`
 
-Put images to `app/images`
+Put images in a folder `app/images`
 
-#### For resize images (if you need) set sizes you need at `gulpfile.js` and Put images to `app/images/original` and after run
+#### To resize images (if you need) set sizes in the `gulpfile.js` and put images in a folder `app/images/original` and after run
 
 `gulp resize`
 
-After you get resized files at the `app/images/resized`
+After that, you will receive resized images in the folder `app/images/resized`
 
-#### For optimize images run 
+#### To optimize the images, run 
 
 `gulp`
 
@@ -28,8 +25,8 @@ or
 
 `gulp default`
 
-After you get optimized images at the `dist/images`
+After that, you will receive optimized images in the folder `dist/images`
 
-#### For clearing cache run
+#### To clear the cache, run
 
 `gulp clear`
